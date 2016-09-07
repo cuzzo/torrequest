@@ -2,8 +2,8 @@
 
 'use strict';
 
-var Socks5ClientHttpAgent = require('./node_modules/socks5-http-client/lib/Agent');
-var Socks5ClientHttpsAgent = require('./node_modules/socks5-https-client/lib/Agent');
+var Socks5ClientHttpAgent = require('socks5-http-client/lib/Agent');
+var Socks5ClientHttpsAgent = require('socks5-https-client/lib/Agent');
 var request = require("request");
 var url = require("url");
 
